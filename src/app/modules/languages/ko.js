@@ -1,29 +1,29 @@
-function EnglishProvider($translateProvider) {
+function KoreanProvider($translateProvider) {
     'ngInject'
 
-    $translateProvider.translations('en', {
+    $translateProvider.translations('ko', {
 
         // HEADER COMPONENT
         WALLET_NAME_1: 'DE-test',
-        WALLET_NAME_2: 'Wallet',
-        APP_NAME_SUB: 'The secure interface connecting to the DE-test platform',
-        HEADER_LOGIN_BUTTON: 'Login',
-        HEADER_SIGNUP_BUTTON: 'Sign Up',
-        HEADER_DASHBOARD: 'Dashboard',
-        HEADER_WALLET: 'Wallet',
-        HEADER_SERVICES: 'Services',
-        HEADER_EXPLORER: 'Explorer',
-        HEADER_NODE: 'Node',
-        HEADER_ACCOUNT: 'Account',
-        HEADER_LANG_TITLE: 'Language',
-        HEADER_LANG_SELECT: 'Select a language',
-        HEADER_NODE_BLOCK_HEIGHT: 'Block height',
-        HEADER_NODE_CURRENT_NODE: 'Current node',
-        HEARDER_NODE_LIST: 'Nodes list',
-        HEADER_NODE_SELECT: 'Select a node',
-        HEADER_NODE_CUSTOM: 'Custom node',
-        HEADER_NODE_CONNECT: 'Connect',
-        HEADER_NODE_CUSTOM_INFO: 'Node ip or domain',
+        WALLET_NAME_2: '지갑',
+        APP_NAME_SUB: 'DE-test 플랫폼에 대한 보안 인터페이스',
+        HEADER_LOGIN_BUTTON: '로그인',
+        HEADER_SIGNUP_BUTTON: '가입하기',
+        HEADER_DASHBOARD: '대시보드',
+        HEADER_WALLET: '지갑',
+        HEADER_SERVICES: '서비스',
+        HEADER_EXPLORER: '탐색기',
+        HEADER_NODE: '노드',
+        HEADER_ACCOUNT: '계정',
+        HEADER_LANG_TITLE: '언어',
+        HEADER_LANG_SELECT: '언어 선택',
+        HEADER_NODE_BLOCK_HEIGHT: '블록 높이',
+        HEADER_NODE_CURRENT_NODE: '현재 노드',
+        HEARDER_NODE_LIST: '노드 목록',
+        HEADER_NODE_SELECT: '노드 선택',
+        HEADER_NODE_CUSTOM: '커스텀 노드',
+        HEADER_NODE_CONNECT: '연결',
+        HEADER_NODE_CUSTOM_INFO: '노드 IP 혹은 도메인',
         HEADER_NODE_CUSTOM_TOOLTIP: 'Enter your own NIS node here',
         HEADER_PURGE: 'Purge',
         HEADER_PURGE_MESSAGE: 'Please confirm the purge of local storage. By clicking "Purge" all wallets in your browser local storage will be deleted and will not be recoverable. You agree that all wallets have been backed up and funds are secured.',
@@ -33,7 +33,7 @@ function EnglishProvider($translateProvider) {
         // FOOTER COMPONENT
         FOOTER_POWERED_BY_1: 'Powered by',
         FOOTER_POWERED_BY_2: 'DE-test technology.',
-        FOOTER_VERSION: 'Version',
+        FOOTER_VERSION: '버전',
 
         // DASHBOARD MODULE
         DASHBOARD_TITLE: 'Dashboard',
@@ -865,4 +865,4 @@ function EnglishProvider($translateProvider) {
     });
 }
 
-export default EnglishProvider;
+export default KoreanProvider;

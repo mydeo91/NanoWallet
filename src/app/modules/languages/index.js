@@ -4,6 +4,9 @@ import angular from 'angular';
 let app = angular.module('app.lang', ['pascalprecht.translate']);
 
 // Include languages
+import KoreanProvider from './ko';
+app.config(KoreanProvider);
+
 import EnglishProvider from './en';
 app.config(EnglishProvider);
 
@@ -39,7 +42,7 @@ app.config(UkrainianProvider);
 
 // Comment this while developing to see untranslated strings
 app.config(['$translateProvider', function($translateProvider) {
-    $translateProvider.fallbackLanguage('en');
+    $translateProvider.fallbackLanguage('ko');
 }]);
 
 export default app;
